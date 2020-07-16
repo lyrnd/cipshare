@@ -6,7 +6,7 @@
       'My Files' => 'CIPShare Files',
       'Contents' => 'Advanced Search',
       'Date Format: Files' => 'm/d/Y h:i A',
-      'Name' => 'Simple Search',
+      'Name' => 'File Name',
     ),
     'General' => 
     array (
