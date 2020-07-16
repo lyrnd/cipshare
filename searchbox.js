@@ -222,9 +222,9 @@ FR.components.SearchPanel = Ext.extend(Ext.Panel, {
 
 			filename: new Ext.Button({text: FR.T('Name'), value: 'filename', enableToggle: true, toggleHandler: this.typeToggle, scope: this}), 
 
-/*			meta: new Ext.Button({text: FR.T('Metadata'), value: 'meta', hidden: (FR.searchMetaColumns.length == 0 || !User.perms.metadata), enableToggle: true, toggleHandler: this.typeToggle, scope: this}), */
+			meta: new Ext.Button({text: FR.T('Metadata'), value: 'meta', hidden: (FR.searchMetaColumns.length == 0 || !User.perms.metadata), enableToggle: true, toggleHandler: this.typeToggle, scope: this}), 
 
-/*			metatype: new Ext.Button({text: FR.T('Type'), value: 'metatype', enableToggle: true, toggleHandler: this.typeToggle, scope: this}), */
+			metatype: new Ext.Button({text: FR.T('Type'), value: 'metatype', enableToggle: true, toggleHandler: this.typeToggle, scope: this}), 
 
 			contents: new Ext.Button({text: FR.T('Contents'), value: 'contents', hidden: !Settings.fullTextSearch, enableToggle: true, toggleHandler: this.typeToggle, scope: this})
 
